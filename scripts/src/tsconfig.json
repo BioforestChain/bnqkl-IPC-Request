@@ -1,0 +1,16 @@
+{
+  "extends": "../base.tsconfig.cjs",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "../build/cjs"
+  },
+  "files": [
+    "constants.ts",
+    "HttpLikeClient.ts",
+    "HttpLikeServer.ts",
+    "index.ts",
+    "ipcRequest.ts",
+    "RequestFactory.ts",
+    "types.ts"
+  ]
+}

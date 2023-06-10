@@ -1,0 +1,17 @@
+{
+    "extends": "../base.tsconfig.cjs",
+    "compilerOptions": {
+        "target": "esnext",
+        "rootDir": "./",
+        "outDir": "../build/test"
+    },
+    "files": [
+        "performance.test.ts",
+        "use-gipc.test.ts"
+    ],
+    "references": [
+        {
+            "path": "../src"
+        }
+    ]
+}
